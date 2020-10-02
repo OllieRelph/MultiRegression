@@ -5,8 +5,6 @@ import numpy as np
 import random
 
 
-    
-
 def create_y_data(variance):
     y_data = []
     for x in range(1000):
@@ -62,7 +60,6 @@ def multi_regression(y_data, variance):
    
     
     plt.show()
-    
     
     print("Mean Squared Error (Linear)  = %.2f" %MSElin)
     print("R2 Score (Linear) = %.2f" %r2scorelin)
